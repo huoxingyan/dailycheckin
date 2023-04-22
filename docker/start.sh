@@ -5,7 +5,6 @@ export LANG="zh_CN.UTF-8"
 
 echo "安装最新依赖..."
 pip install dailycheckin --upgrade
-
 defaultListFile="/dailycheckin/default_list.sh"
 
 customListFile="/dailycheckin/$CUSTOM_LIST_FILE"
